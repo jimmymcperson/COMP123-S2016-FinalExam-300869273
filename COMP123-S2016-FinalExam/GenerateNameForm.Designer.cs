@@ -173,6 +173,7 @@
             this.LastNameListBox.Size = new System.Drawing.Size(152, 94);
             this.LastNameListBox.Sorted = true;
             this.LastNameListBox.TabIndex = 2;
+            this.LastNameListBox.SelectedValueChanged += new System.EventHandler(this.LastNameListBox_SelectedValueChanged);
             // 
             // FirstNameLabel
             // 
@@ -243,6 +244,7 @@
             this.FirstNameListBox.Size = new System.Drawing.Size(152, 94);
             this.FirstNameListBox.Sorted = true;
             this.FirstNameListBox.TabIndex = 0;
+            this.FirstNameListBox.SelectedValueChanged += new System.EventHandler(this.FirstNameListBox_SelectedValueChanged);
             // 
             // NextButton
             // 

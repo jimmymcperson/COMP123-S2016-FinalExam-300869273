@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 /*
  * ==================================================================================================
  * App Name: Character Creation
@@ -16,12 +15,9 @@ using System.Windows.Forms;
  * Student#: 300869273
  * Creation Date: August 19, 2016
  * Description: This program creates a fantasy character with traits.
- * Version: 0.0.4 - Debugging.
+ * Version: 0.0.5 - Added extra functionality (can click name to select) to GenerateNameForm.
  * ==================================================================================================
  */
-
-
-
 namespace COMP123_S2016_FinalExam
     {
 

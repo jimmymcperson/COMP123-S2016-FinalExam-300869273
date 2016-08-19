@@ -15,10 +15,9 @@ using System.Windows.Forms;
  * Student#: 300869273
  * Creation Date: August 19, 2016
  * Description: This program creates a fantasy character with traits.
- * Version: 0.0.4 - Debugging.
+ * Version: 0.0.5 - Added extra functionality (can click name to select) to GenerateNameForm.
  * ==================================================================================================
  */
-
 namespace COMP123_S2016_FinalExam
 {
 
@@ -97,6 +96,36 @@ namespace COMP123_S2016_FinalExam
 
             this.Hide();
             Program.abilityGeneratorForm.Show();
+            }
+
+        /** <summary>
+        * This method changes the value of FirstNameTextBox when a first name is clicked.
+        * </summary>
+        *
+        * @method FirstNameListBox_SelectedValueChanged
+        * @params {object} sender
+        * @params {EventArgs} e
+        * @private
+        * @returns {void}
+        */
+        private void FirstNameListBox_SelectedValueChanged(object sender, EventArgs e)
+            {
+            FirstNameTextBox.Text = FirstNameListBox.SelectedItem.ToString();
+            }
+
+        /** <summary>
+        * This method changes the value of LastNameTextBox when a last name is clicked.
+        * </summary>
+        *
+        * @method LastNameListBox_SelectedValueChanged
+        * @params {object} sender
+        * @params {EventArgs} e
+        * @private
+        * @returns {void}
+        */
+        private void LastNameListBox_SelectedValueChanged(object sender, EventArgs e)
+            {
+            LastNameTextBox.Text = LastNameListBox.SelectedItem.ToString();
             }
     }
 }
