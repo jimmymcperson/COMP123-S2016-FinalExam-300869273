@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 /*
  * ==================================================================================================
  * App Name: Character Creation
@@ -15,28 +16,14 @@ using System.Windows.Forms;
  * Student#: 300869273
  * Creation Date: August 19, 2016
  * Description: This program creates a fantasy character with traits.
- * Version: 0.0.2 - Added functionality to GenerateNameForm.
+ * Version: 0.0.3 - Added functionality to FinalForm.
  * ==================================================================================================
  */
-
 namespace COMP123_S2016_FinalExam
 {
 
-    /** <summary>
-    * This class defines a form that names a character.
-    * </summary>
-    * 
-    * @class GenerateNameForm
-    * @extends Form
-    */
     public partial class GenerateNameForm : Form
     {
-        /** <summary>
-        * This is the default constructor.
-        * </summary>
-        *
-        * @method GenerateNameForm
-        */
         public GenerateNameForm()
         {
             InitializeComponent();

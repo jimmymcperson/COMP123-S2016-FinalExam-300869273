@@ -46,6 +46,7 @@ namespace COMP123_S2016_FinalExam
         {
             FinalForm finalForm = new FinalForm();
             finalForm.previousForm = this;
+            Program.character.Race = this._selectedRace;
 
             finalForm.Show();
             this.Hide();
