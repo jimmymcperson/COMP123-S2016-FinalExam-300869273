@@ -46,7 +46,25 @@ namespace COMP123_S2016_FinalExam
         {
             FinalForm finalForm = new FinalForm();
             finalForm.previousForm = this;
-            Program.character.Race = this._selectedRace;
+
+            //sets character's race upon "next" button click depending on radio button
+            if (HumanRadioButton.Checked == true)
+                {
+                Program.character.Race = "Human";
+                }
+            else if (ElfRadioButton.Checked == true)
+                {
+                Program.character.Race = "Elf";
+                }
+            else if (DwarfRadioButton.Checked == true)
+                {
+                Program.character.Race = "Dwarf";
+                }
+            else if (HalflingRadioButton.Checked == true)
+                {
+                Program.character.Race = "Halfling";
+                }
+
 
             finalForm.Show();
             this.Hide();

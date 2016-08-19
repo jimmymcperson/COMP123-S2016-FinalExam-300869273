@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 /*
  * ==================================================================================================
  * App Name: Character Creation
@@ -16,9 +15,10 @@ using System.Windows.Forms;
  * Student#: 300869273
  * Creation Date: August 19, 2016
  * Description: This program creates a fantasy character with traits.
- * Version: 0.0.3 - Added functionality to FinalForm.
+ * Version: 0.0.4 - Debugging.
  * ==================================================================================================
  */
+
 namespace COMP123_S2016_FinalExam
 {
 
@@ -91,6 +91,10 @@ namespace COMP123_S2016_FinalExam
         */
         private void NextButton_Click(object sender, EventArgs e)
             {
+            //I think it would be better to set values in this event I pasted the code here as well
+            Program.character.FirstName = FirstNameTextBox.Text;
+            Program.character.LastName = LastNameTextBox.Text;
+
             this.Hide();
             Program.abilityGeneratorForm.Show();
             }

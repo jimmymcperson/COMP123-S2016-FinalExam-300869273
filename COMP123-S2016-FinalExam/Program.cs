@@ -11,7 +11,7 @@ using System.Windows.Forms;
  * Student#: 300869273
  * Creation Date: August 19, 2016
  * Description: This program creates a fantasy character with traits.
- * Version: 0.0.3 - Added functionality to FinalForm.
+ * Version: 0.0.4 - Debugging.
  * ==================================================================================================
  */
 
